@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":".,#/!*"
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
+            "value":"ᴍʀͥ.ᴀͣᴍͫɪʏᴀ ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"😈🤖 Amiya Dragon Bot MD 🤖😈"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -61,22 +61,57 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"94767453646,94718527792"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
             "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "value":""
         },
        "SESSION": {
-            "description": "Your MD session",
+            "description": "",
             "required": true
              
+        },
+	"ALLOWED_LINKS": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"instagram,youtube,facebook,gist"
+        },
+	"ALWAYS_ONLINE": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"true"
+        },
+	"BOT_INFO": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"😈🤖 Amiya Dragon Bot MD 🤖😈;😎៚ᴍʀͥ.ᴀͣᴍͫɪʏᴀ͢⁸⁵⁴¹⃟✦⃝̮̮〽️ 😈;+94767453646;https://i.ibb.co/30VVgGW/Amiya.jpg;https://chat.whatsapp.com/Cp96xRSt5DhBqxzjBzL0oc"
+        },
+	"PMB": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":""
+        },
+	"PMB_VAR": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"true"
+        },
+	"RBG_KEY": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"hvsaA4hVYZ5fNL7Sp5Dih6WW"
+        },
+	"REJECT_CALLS": {
+            "description": "Bot will read all messages. Can be also false",
+            "required": true,
+            "value":"true"
         }
     },
     "addons": [{
